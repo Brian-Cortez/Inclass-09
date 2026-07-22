@@ -104,6 +104,48 @@ body.demo-page {
   padding: .6rem .75rem;
   border: 1px solid var(--demo-border);
 }
+.back-link {
+    margin: 20px 0 0;
+    text-align: center;
+ }
+
+.back-link a {
+    color: #64748b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.back-link a:hover {
+    color: #b91c1c;
+    text-decoration: underline;
+}
+.table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.employee-table th,
+.employee-table td {
+    padding: 0.75rem;
+    border: 1px solid var(--demo-border);
+    text-align: left;
+    white-space: nowrap;
+}
+
+.employee-table th {
+    color: var(--demo-accent);
+    background-color: rgba(15, 23, 42, 0.6);
+}
+
+.employee-table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
 
 .demo-msg.success { border-color: rgba(52, 211, 153, .45); color: var(--demo-success); }
 .demo-msg.error { border-color: rgba(251, 113, 133, .45); color: var(--demo-danger); }
